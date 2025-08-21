@@ -1,94 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>G-NEST Pre School</title>
-      <link rel="icon" type="image/png" href="./src/WhatsApp Image 2024-07-12 at 6.08.56 PM.jpeg" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>G-NEST Pre School</title>
+  <link rel="icon" type="image/png" href="./src/WhatsApp Image 2024-07-12 at 6.08.56 PM.jpeg" />
 
-    <style>
-      body {
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        background: #fdf6e3;
-        margin: 0;
-        padding: 0;
-      }
+  <style>
+    :root {
+      --primary: #ffda77;
+      --accent: #e67e22;
+      --bg: #fdf6e3;
+      --text-dark: #333;
+      --text-light: #444;
+    }
 
-      header {
-        text-align: center;
-        background-color: #ffda77;
-        padding: 20px;
-      }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: var(--bg);
+      margin: 0;
+      padding: 0;
+      color: var(--text-dark);
+    }
 
-      header img {
-        width: 120px;
-        height: auto;
-        border-radius: 50%;
-      }
+    header {
+      text-align: center;
+      background: var(--primary);
+      padding: 30px 20px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
 
-      h1 {
-        margin-top: 10px;
-        font-size: 2em;
-        color: #333;
-      }
+    header img {
+      width: 120px;
+      height: auto;
+      border-radius: 50%;
+      border: 4px solid white;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    }
 
-      .about {
-        padding: 20px;
-        max-width: 800px;
-        margin: auto;
-        text-align: center;
-      }
+    h1 {
+      margin: 15px 0 0;
+      font-size: 2.2em;
+      font-weight: 700;
+    }
 
-      .about h2 {
-        color: #e67e22;
-      }
+    .about {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: 40px auto;
+      background: white;
+      border-radius: 16px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+      text-align: center;
+      transition: transform 0.2s;
+    }
 
-      .about p {
-        font-size: 1.1em;
-        color: #444;
-        line-height: 1.6;
-      }
+    .about:hover {
+      transform: translateY(-5px);
+    }
 
-      .map-container {
-        text-align: center;
-        margin: 30px auto;
-      }
+    .about h2 {
+      color: var(--accent);
+      font-size: 1.8em;
+      margin-bottom: 15px;
+    }
 
-      iframe {
-        border: 0;
-        width: 90%;
-        height: 300px;
-        border-radius: 10px;
-      }
+    .about p {
+      font-size: 1.1em;
+      color: var(--text-light);
+      line-height: 1.7;
+    }
 
-      footer {
-        text-align: center;
-        padding: 15px;
-        background: #ffda77;
-        color: #444;
-      }
-    </style>
-  </head>
+    .map-container {
+      text-align: center;
+      margin: 50px auto;
+      max-width: 900px;
+    }
+
+    .map-container h2 {
+      color: var(--accent);
+      margin-bottom: 20px;
+    }
+
+    iframe {
+      border: 0;
+      width: 100%;
+      height: 400px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: var(--primary);
+      color: var(--text-light);
+      font-size: 0.95em;
+      box-shadow: 0 -2px 8px rgba(0,0,0,0.1);
+      margin-top: 50px;
+    }
+  </style>
+</head>
 <body>
   <header>
     <img src="./src/WhatsApp Image 2024-07-12 at 6.08.56 PM.jpeg" alt="GNEST Logo" />
-    <h1>G-NEST Pre School</h1>
+    <h1>G-Nest Pre School</h1>
   </header>
 
   <section class="about">
     <h2>About Us</h2>
     <p>
-      At GNEST, we nurture young minds with love, creativity, and care. Our Pre-school is a safe and joyful space where children begin their learning journey through fun-filled activities and structured play. Join us in building the foundation for a bright future.
+      At G-Nest, we nurture young minds with love, creativity, and care. 
+      Our Pre-school is a safe and joyful space where children begin their 
+      learning journey through fun-filled activities and structured play. 
+      Join us in building the foundation for a bright future.
     </p>
   </section>
 
   <div class="map-container">
     <h2>Find Us Here</h2>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3910.2845025112238!2d77.43347287505195!3d11.459378888734008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba93d33a4b4b41d%3A0xf4305b7e7bda5d6!2sG-Nest%20Pre%20School!5e0!3m2!1sen!2sin!4v1755753670841!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3910.2845025112238!2d77.43347287505195!3d11.459378888734008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba93d33a4b4b41d%3A0xf4305b7e7bda5d6!2sG-Nest%20Pre%20School!5e0!3m2!1sen!2sin!4v1755753670841!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   </div>
 
   <footer>
-    © 2025 CELERIS SOLUTIONS. All Rights Reserved.
+    © 2025 Celeris Solutions. All Rights Reserved.
   </footer>
 </body>
 </html>
